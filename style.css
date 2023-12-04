@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-image: url(./assets/bg-gradient.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 400px;
+  height: 550px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.album-cover {
+  height: 150px;
+  margin: 30px;
+}
+
+.details {
+  margin: 30px;
+}
+
+.song-title {
+  font-size: 20px;
+}
+
+.artist {
+  font-size: 17px;
+}
+
+.time {
+  font-size: 10px;
+}
+
+#progress {
+  -webkit-appearance: none;
+  width: 80%;
+  height: 6px;
+  background: #632964;
+}
+
+.controls {
+  margin: 30px;
+}
+
+.ctrl {
+  border: 0;
+  background-color: transparent;
+  font-size: 50px;
+  margin: 0 10px;
+}
+
+#play {
+  background: -webkit-linear-gradient(45deg, #68255d, #95385a 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#previous,
+#next {
+  color: #9e5371;
+}
